@@ -1,0 +1,47 @@
+:root{
+  --red : #d01c28;
+  --grey : #2e2e2e;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: "Poppins", serif;
+
+}
+
+nav{
+  display: flex;
+  height: 50px;
+  max-width: 1280px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 2rem;
+}
+nav .logo{
+  height: 32px;
+  margin: auto 0;
+}
+nav .logo img{
+  height: 3em;
+  width: 5em;
+}
+
+nav ul{
+  display: flex;
+  width: 27%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+button{
+  all: unset;
+  padding: 0 16px;
+  border:  1px solid;
+  color: white;
+  background-color: var(--red);
+  height: 32px;
+  font-weight: 500;
+}
